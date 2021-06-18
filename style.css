@@ -1,0 +1,129 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    --black1: rgb(80, 80, 80);
+    --white1: rgb(220, 220, 220);
+}
+body{
+    background-color: var(--black1);
+    color: var(--white1);
+    
+}
+.no__header{
+    padding: 1% 6%
+}
+.title{
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.box{
+    background-color: black;
+    padding: 2% 5%;
+    display: flex;
+    overflow-wrap: normal;
+    width: auto;
+    border-radius: 20px;
+    opacity: .5;
+    border-color: var(--white1);
+    border-style: solid;
+    line-height: 2rem;
+}
+
+/* Header */
+header{
+    min-height: 100vh;
+    width: 100%;
+    background-color: var(--white1);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-image: url(./index-background.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+nav{
+    display:flex;
+    padding: 1% 6%;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .1));
+}
+nav img{
+    width: 250px;
+
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: var(--black1);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    display: block;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+    
+}
+
+
+/* Project List */
+
+.box p, .box button, a{
+    opacity: 1;
+    color: white;
+    text-decoration: none;
+}
+
+.box button{
+    background-color: var(--black1);
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.box li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+#contact__box img{
+    width: 30px;
+}
+
+#contact__box{
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+#contact__box img{
+    padding: 5px;
+}
+.copyright{
+    float: right;
+}
+
+
+
+
+
