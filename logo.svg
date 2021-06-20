@@ -7,7 +7,7 @@
       <feComposite operator="in" in2="blur"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <style type="text/css">@import url(@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap'););</style>
+    <style type="text/css">@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');</style>
   </defs>
   <g id="Group_1" data-name="Group 1" transform="translate(-129 -58)">
     <text id="Basheer_Projects_" data-name="Basheer Projects " transform="translate(130 105)" fill="#505050" font-size="50" font-family="Satisfy-Regular, Satisfy" letter-spacing="-0.03em"><tspan x="0" y="0">Basheer Projects </tspan></text>
