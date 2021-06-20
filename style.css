@@ -53,6 +53,16 @@ nav{
     align-items: center;
     background-image: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .1));
 }
+
+/* Phone */
+@media (max-width: 600px) {
+    nav{
+        display:flex;
+        flex-direction: column;
+        align-content: center;
+    }
+}
+
 nav img{
     width: 250px;
 
