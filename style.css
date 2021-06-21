@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 html{
     scroll-behavior: smooth;
 }
@@ -45,6 +46,10 @@ header{
     background-size: contain;
     background-repeat: no-repeat;
     background-size: 100%;
+}
+
+.logo{
+    font-family: 'Satisfy', cursive;
 }
 nav{
     display:flex;

@@ -1,3 +1,5 @@
+
+
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="364" height="71" viewBox="0 0 364 71">
   <defs>
     <filter id="Path_1" x="307.665" y="17" width="56.335" height="48.25" filterUnits="userSpaceOnUse">
@@ -6,7 +8,7 @@
       <feFlood flood-opacity="0.161"/>
       <feComposite operator="in" in2="blur"/>
       <feComposite in="SourceGraphic"/>
-      <style type="text/css">@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');</style>
+      
     </filter>
   </defs>
   <g id="Group_1" data-name="Group 1" transform="translate(-129 -58)">
