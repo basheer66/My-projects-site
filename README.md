@@ -1,2 +1,2 @@
 # My-projects-site
-My site
+My website
